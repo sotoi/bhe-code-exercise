@@ -52,13 +52,13 @@ GET /primes?n={number}
 
 Using curl:
 ```bash
-curl "http://localhost:8080/primes?n=5"
+curl "http://localhost:8080/primes?n=0"
 ```
 
 #### Success Response
 
 ```json
 {
-    "nth_prime": 11
+    "nth_prime": 2
 }
 ```
